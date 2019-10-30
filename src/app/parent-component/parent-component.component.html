@@ -1,0 +1,35 @@
+<header>
+  <nav>
+    <h1 class ="mainheading"> GITBOT </h1>
+  </nav>
+</header>
+<!-- GITBOT IMG -->
+<div class="google">
+  <a href="#" id="google_logo"><img src="https://avatars2.githubusercontent.com/u/14315488?s=400&v=4"
+                                    alt="Image of BOT"/></a>
+</div>
+<!-- FORM SEARCH -->
+<div class="form">
+  <form>
+
+    <input [(ngModel)]="text" [ngModelOptions]="{standalone: true}" id="text" placeholder="Type in the command for the Gitbot"
+           type="text" class="maininput">
+  </form>
+</div>
+<!-- BUTTONS -->
+<div class="buttons">
+  <input (click)="userData()" type="submit" value="GITBOT GO!" id="google_search" class="mainbutton">
+  <h2>{{speech}}</h2>
+</div>
+<!-- FOOTER -->
+<footer>
+  <ul class="footer-left">
+    <li><a href="#">Our Business</a></li>
+    <li><a href="#">About</a></li>
+  </ul>
+  <ul class="footer-right">
+    <li><a href="#">Privacy</a></li>
+    <li><a href="#">Terms</a></li>
+    <li><a href="#">Settings</a></li>
+  </ul>
+</footer>

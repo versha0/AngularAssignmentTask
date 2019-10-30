@@ -1,0 +1,24 @@
+.allRepo{
+  font-family: 'Roboto', sans-serif;
+  color: blueviolet;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  border: 2px midnightblue groove;
+  font-size: 25px;
+  /*background-image: ();*/
+}
+.head{
+  font-family: 'Roboto', sans-serif;
+  border-color: chartreuse;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: midnightblue;
+  text-align: center;
+  font-size: 50px;
+  border: 25px midnightblue outset;
+}
+
+.headcreate{
+
+}

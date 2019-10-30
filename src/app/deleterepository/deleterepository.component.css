@@ -1,0 +1,30 @@
+.deleteRepo{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+}
+.mainhead{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color:midnightblue;
+}
+.input2{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 23px;
+
+}
+.buttondelete{
+  background-color: #e7e7e7;
+  color: black;;
+  border: none;
+
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
