@@ -13,7 +13,7 @@ export class CreaterepositoryService {
       {
         'name': repoName,
         'description': description,
-        'homepage': 'https://github.com',
+        homepage: 'https://github.com',
         'private': false,
         'has_issues': true,
         'has_projects': true,
