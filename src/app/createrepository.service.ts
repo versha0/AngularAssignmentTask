@@ -5,8 +5,8 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class CreaterepositoryService {
-// e764590ec5b1e77ce1c4338d402d347ec8707c70=mytoken
-  private url: string = 'https://api.github.com/user/repos?access_token=e764590ec5b1e77ce1c4338d402d347ec8707c70';
+//  c55cb4406be0b12018f2d90f42d084d02db384a5=mytoken
+  private url: string = 'https://api.github.com/user/repos?access_token=c55cb4406be0b12018f2d90f42d084d02db384a5';
   constructor(private http: HttpClient) { }
   createRepo(repoName: string, description: string) {
     return this.http.post(this.url,

@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
+import {MainService} from './main.service';
 
 @Component({
   selector: 'app-root',
@@ -10,12 +11,10 @@ export class AppComponent implements OnInit {
   title = 'GitBot';
 
   constructor(
-
   ) {
   }
 
   ngOnInit(): void {
-
   }
 
 }
