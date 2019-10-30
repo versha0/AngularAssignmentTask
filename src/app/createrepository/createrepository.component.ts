@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {CreaterepositoryService} from '../createrepository.service';
+import {MainService} from '../main.service';
 
 @Component({
   selector: 'app-createrepository',
@@ -8,16 +9,18 @@ import {CreaterepositoryService} from '../createrepository.service';
 })
 export class CreaterepositoryComponent implements OnInit {
 
-  constructor(private createService: CreaterepositoryService) { }
+  constructor(private createService: CreaterepositoryService, private mainService: MainService) { }
   public repoName;
   public repoDesc;
   ngOnInit() {
+
   }
   createRepo() {
     this.createService.createRepo(this.repoName, this.repoDesc).
     subscribe( data => {
       console.log('data');
       console.log(data);
+      
     });
   }
 

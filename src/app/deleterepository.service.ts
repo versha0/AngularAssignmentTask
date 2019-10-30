@@ -5,9 +5,9 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class DeleterepositoryService {
-//  c55cb4406be0b12018f2d90f42d084d02db384a5=mytoken
+//  bd8b8277536b6e160afc70832c839d6f5c0acde8=mytoken
   private url1 = 'https://api.github.com/repos/versha0/';
-  private url2 = '?access_token=c55cb4406be0b12018f2d90f42d084d02db384a5';
+  private url2 = '?access_token=bd8b8277536b6e160afc70832c839d6f5c0acde8';
   constructor(private http: HttpClient) { }
   deleteRepo(repoName: string) {
     return this.http.delete(this.url1 + repoName + this.url2);
